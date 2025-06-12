@@ -168,8 +168,4 @@ public interface ErrorCodeConstants {
     // ========== 站内信发送 1-002-028-000 ==========
     ErrorCode NOTIFY_SEND_TEMPLATE_PARAM_MISS = new ErrorCode(1_002_028_000, "模板参数({})缺失");
 
-
-    // TODO 待办：请将下面的错误码复制到 yudao-module-system 模块的 ErrorCodeConstants 类中。注意，请给“TODO 补充编号”设置一个错误码编号！！！
-    // ========== 用户组 1-002-029-000 ==========
-    ErrorCode GROUP_NOT_EXISTS = new ErrorCode(1_002_029_000, "用户组不存在");
 }

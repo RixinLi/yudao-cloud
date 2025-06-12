@@ -612,5 +612,3 @@ CREATE TABLE IF NOT EXISTS "system_notify_message" (
     "tenant_id" bigint not null default  '0',
     PRIMARY KEY ("id")
 ) COMMENT '站内信消息表';
-
-
